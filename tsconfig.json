@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "target": "es5",
+        "module": "commonjs",
+        "declaration": false,
+        "noImplicitAny": false,
+        "removeComments": true,
+        "noLib": false
+    },
+    "compileOnSave": false,
+    "filesGlob": [
+        "./**/*.ts",
+        "./node_modules/type-definitions/**/*.ts",
+        "!./node_modules/gulp-typescript/**/*.ts"
+    ],
+    "files": [
+        "./backend/main.ts",
+        "./backend/routes/index.ts",
+        "./node_modules/type-definitions/angularjs/angular.d.ts",
+        "./node_modules/type-definitions/body-parser/body-parser.d.ts",
+        "./node_modules/type-definitions/clientside.d.ts",
+        "./node_modules/type-definitions/express/express.d.ts",
+        "./node_modules/type-definitions/jquery/jquery.d.ts",
+        "./node_modules/type-definitions/mime/mime.d.ts",
+        "./node_modules/type-definitions/node/node.d.ts",
+        "./node_modules/type-definitions/polymer/polymer.d.ts",
+        "./node_modules/type-definitions/serve-static/serve-static.d.ts",
+        "./node_modules/type-definitions/serverside.d.ts",
+        "./node_modules/type-definitions/webcomponents.js/webcomponents.js.d.ts"
+    ]
+}
