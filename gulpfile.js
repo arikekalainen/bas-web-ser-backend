@@ -25,7 +25,7 @@ gulp.task(compileBackend, function() {
 
 // Copy node_modules to release folder
 var copyNodeModulesToRelease = 'copy-node-modules-to-release';
-gulp.task(linkNodeModulesToRelease, function() {
+gulp.task(copyNodeModulesToRelease, function() {
     return gulp.src("./node_modules/**/*.*")
         .pipe(gulp.dest('release/node_modules'));
 });
